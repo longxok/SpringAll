@@ -5,6 +5,13 @@ import java.io.Serializable;
 public class Student implements Serializable{
 	
 	private static final long serialVersionUID = -339516038496531943L;
+	public Student(){
+
+	}
+
+	public Student(String sno){
+		this.sno = sno;
+	}
 	private String sno;
 	private String name;
 	private String sex;
